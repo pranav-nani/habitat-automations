@@ -1,0 +1,67 @@
+/* // features section  */
+* {
+  font-family: "Jost";
+}
+.projects-container {
+  margin-top: 50px !important;
+  margin-bottom: 200px !important;
+}
+.projects-container h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.projects-container > p:first-of-type {
+  padding: 0 280px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4e4e4e;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* feuatures card */
+.projects-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 24px;
+  width: 420px;
+  height: 280px;
+  border-radius: 10px;
+}
+.projects-item h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.projects-item p {
+  font-weight: 400;
+  color: #161c2d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  padding: 15px 0 15px 0;
+}
+
+.projects-item img {
+  width: 380px;
+  height: 180px;
+}
+
+.learn-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.learn-more-link svg {
+  margin-left: 5px;
+}

@@ -1,0 +1,72 @@
+/* Footer sections  */
+.footer-content {
+  padding: 50px;
+  margin-top: 30px;
+}
+.footer-content img {
+  width: 55px;
+  height: 55px;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: white;
+}
+.Links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0; /* Remove any default padding */
+}
+
+.Links li {
+  margin-right: 30px; /* Add some spacing between the links */
+  margin-top: 10px;
+}
+
+.Links a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer-details {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-info {
+  display: flex;
+  padding: 20px;
+  gap: 1rem;
+}
+.footer-info img {
+  width: 405px;
+  height: 205px;
+  gap: 0px;
+  opacity: 0px;
+}
+.footer-address {
+  padding: 30px;
+  margin: 10px 0 30px 0;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #4a4a4a;
+}
+
+.footer-end {
+  text-align: center;
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}

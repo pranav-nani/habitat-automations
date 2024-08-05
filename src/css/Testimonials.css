@@ -1,0 +1,26 @@
+/* testimonal section  */
+
+.testimonal-container {
+  background-image: url("../images/Testimonal_bg.png");
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.testimonal-details {
+  margin-top: 70px;
+}
+.user-data h2 {
+  color: white;
+}
+.user-data p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px ;
+  font-weight: 400;
+}
+.testimonal-user-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}

@@ -1,0 +1,43 @@
+
+/* // features section  */
+*{
+    font-family: 'Jost';
+}
+.features-container h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .features-container>p:first-of-type{
+    padding: 0 180px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* feuatures card */
+  .features-grid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+  .feature-item{
+    margin-top: 24px;
+    padding: 50px 47px 50px 47px;
+    width: 443px;
+    height: 280px;
+    border-radius: 10px;
+  }
+  .feature-item h3{
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .feature-item p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  

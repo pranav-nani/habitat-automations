@@ -1,0 +1,83 @@
+/* // features section  */
+* {
+  font-family: "Jost";
+}
+.services-provider {
+  background-color: #303030;
+}
+.services-provider-container{
+    padding: 50px 0 !important;
+}
+.services-provider-container h2 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+/* feuatures card */
+.service-provider-grid {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows, height auto */
+    gap: 35px; /* Adjust gap between items as needed */
+  }
+
+  .service-provider-item {
+    box-shadow: -2.57px 2.57px 0px 0px #ffffff inset; /* or use your utility classes like card-shdw1 */
+    padding: 50px 47px 50px 47px;
+    border-radius: 10px;
+    width: auto;
+  }
+  
+
+.service-provider-item h3 {
+    padding-top: 10px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  color: #18191F;
+
+}
+.service-provider-item p {
+    padding-top: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+.service-provider-item img{
+    width: 45px;
+    height: 45px;
+}
+
+.service-button{
+    margin-top: 20px;
+    text-align: center;
+}
+.service-button button{
+    font-family: "Inter", sans-serif;
+    background-color: #303030;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid ;
+    font-weight: 600;
+    width: 18%;
+    padding: 14px 39px 14px 39px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.service-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .service-link svg {
+    margin-left: 15px;
+    color: black;
+  }
+  
